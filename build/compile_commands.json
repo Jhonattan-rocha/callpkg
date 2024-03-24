@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/callpkg.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\callpkg.dir\\main.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\main.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/main.cpp",
+  "output": "CMakeFiles/callpkg.dir/main.cpp.obj"
+}
+]
