@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "callpkg",
+					"name" : "CALLPKG",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "callpkg::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-callpkg-Debug-0522481b6daf84f82e40.json",
-					"name" : "callpkg",
+					"id" : "CALLPKG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CALLPKG-Debug-38a9b8dd19df6cc6333a.json",
+					"name" : "CALLPKG",
 					"projectIndex" : 0
 				}
 			]

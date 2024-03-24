@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/callpkg.dir/all
+all: CMakeFiles/CALLPKG.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/callpkg.dir/clean
+clean: CMakeFiles/CALLPKG.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/callpkg.dir
+# Target rules for target CMakeFiles/CALLPKG.dir
 
 # All Build rule for target.
-CMakeFiles/callpkg.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\callpkg.dir\build.make CMakeFiles/callpkg.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\callpkg.dir\build.make CMakeFiles/callpkg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=1,2 "Built target callpkg"
-.PHONY : CMakeFiles/callpkg.dir/all
+CMakeFiles/CALLPKG.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target CALLPKG"
+.PHONY : CMakeFiles/CALLPKG.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/callpkg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/callpkg.dir/all
+CMakeFiles/CALLPKG.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CALLPKG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" 0
-.PHONY : CMakeFiles/callpkg.dir/rule
+.PHONY : CMakeFiles/CALLPKG.dir/rule
 
 # Convenience name for target.
-callpkg: CMakeFiles/callpkg.dir/rule
-.PHONY : callpkg
+CALLPKG: CMakeFiles/CALLPKG.dir/rule
+.PHONY : CALLPKG
 
 # clean rule for target.
-CMakeFiles/callpkg.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\callpkg.dir\build.make CMakeFiles/callpkg.dir/clean
-.PHONY : CMakeFiles/callpkg.dir/clean
+CMakeFiles/CALLPKG.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/clean
+.PHONY : CMakeFiles/CALLPKG.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

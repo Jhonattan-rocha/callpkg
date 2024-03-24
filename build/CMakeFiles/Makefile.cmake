@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/CMakeLists.txt"
+  "CMakeFiles/3.29.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeSystem.cmake"
+  "C:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake"
@@ -20,12 +22,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "C:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/FindCURL.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake"
+  "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake"
+  "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake"
@@ -49,5 +54,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/callpkg.dir/DependInfo.cmake"
+  "CMakeFiles/CALLPKG.dir/DependInfo.cmake"
   )

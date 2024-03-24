@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: callpkg
-# Configurations: Debug
+# Configurations: 
 # =============================================================================
 
 #############################################
@@ -20,11 +20,6 @@
 
 ninja_required_version = 1.5
 
-
-#############################################
-# Set configuration variable for custom commands.
-
-CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -49,10 +44,10 @@ cmake_ninja_workdir = C$:/Users/Jhinattan$ Rocha/Documents/GitHub/callpkg/build/
 
 build cmake_object_order_depends_target_callpkg: phony || .
 
-build CMakeFiles/callpkg.dir/main.cpp.obj: CXX_COMPILER__callpkg_unscanned_Debug C$:/Users/Jhinattan$ Rocha/Documents/GitHub/callpkg/main.cpp || cmake_object_order_depends_target_callpkg
+build CMakeFiles/callpkg.dir/main.cpp.obj: CXX_COMPILER__callpkg_unscanned_ C$:/Users/Jhinattan$ Rocha/Documents/GitHub/callpkg/main.cpp || cmake_object_order_depends_target_callpkg
   DEP_FILE = CMakeFiles\callpkg.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -I"C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/src" -IC:/msys64/mingw64/include
+  FLAGS = -std=gnu++20
+  INCLUDES = -I"C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils"
   OBJECT_DIR = CMakeFiles\callpkg.dir
   OBJECT_FILE_DIR = CMakeFiles\callpkg.dir
 
@@ -64,8 +59,7 @@ build CMakeFiles/callpkg.dir/main.cpp.obj: CXX_COMPILER__callpkg_unscanned_Debug
 #############################################
 # Link the executable callpkg.exe
 
-build callpkg.exe: CXX_EXECUTABLE_LINKER__callpkg_Debug CMakeFiles/callpkg.dir/main.cpp.obj | C$:/msys64/mingw64/lib/libcurl.dll.a
-  FLAGS = -g
+build callpkg.exe: CXX_EXECUTABLE_LINKER__callpkg_ CMakeFiles/callpkg.dir/main.cpp.obj | C$:/msys64/mingw64/lib/libcurl.dll.a
   LINK_LIBRARIES = C:/msys64/mingw64/lib/libcurl.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\callpkg.dir
   POST_BUILD = cd .
@@ -119,14 +113,14 @@ build all: phony callpkg.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Jhinattan$ Rocha/Documents/GitHub/callpkg/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/FindCURL.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.29.0/CMakeCXXCompiler.cmake CMakeFiles/3.29.0/CMakeRCCompiler.cmake CMakeFiles/3.29.0/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Jhinattan$ Rocha/Documents/GitHub/callpkg/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/FindCURL.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.29.0/CMakeCCompiler.cmake CMakeFiles/3.29.0/CMakeCXXCompiler.cmake CMakeFiles/3.29.0/CMakeRCCompiler.cmake CMakeFiles/3.29.0/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Jhinattan$ Rocha/Documents/GitHub/callpkg/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/FindCURL.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.29.0/CMakeCXXCompiler.cmake CMakeFiles/3.29.0/CMakeRCCompiler.cmake CMakeFiles/3.29.0/CMakeSystem.cmake: phony
+build C$:/Users/Jhinattan$ Rocha/Documents/GitHub/callpkg/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/FindCURL.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPkgConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.29.0/CMakeCCompiler.cmake CMakeFiles/3.29.0/CMakeCXXCompiler.cmake CMakeFiles/3.29.0/CMakeRCCompiler.cmake CMakeFiles/3.29.0/CMakeSystem.cmake: phony
 
 
 #############################################

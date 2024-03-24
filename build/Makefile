@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named callpkg
+# Target rules for targets named CALLPKG
 
 # Build rule for target.
-callpkg: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 callpkg
-.PHONY : callpkg
+CALLPKG: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CALLPKG
+.PHONY : CALLPKG
 
 # fast build rule for target.
-callpkg/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\callpkg.dir\build.make CMakeFiles/callpkg.dir/build
-.PHONY : callpkg/fast
+CALLPKG/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/build
+.PHONY : CALLPKG/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\callpkg.dir\build.make CMakeFiles/callpkg.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\callpkg.dir\build.make CMakeFiles/callpkg.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,8 +149,104 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\callpkg.dir\build.make CMakeFiles/callpkg.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+packages/Node/nodeManager.obj: packages/Node/nodeManager.cpp.obj
+.PHONY : packages/Node/nodeManager.obj
+
+# target to build an object file
+packages/Node/nodeManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj
+.PHONY : packages/Node/nodeManager.cpp.obj
+
+packages/Node/nodeManager.i: packages/Node/nodeManager.cpp.i
+.PHONY : packages/Node/nodeManager.i
+
+# target to preprocess a source file
+packages/Node/nodeManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.i
+.PHONY : packages/Node/nodeManager.cpp.i
+
+packages/Node/nodeManager.s: packages/Node/nodeManager.cpp.s
+.PHONY : packages/Node/nodeManager.s
+
+# target to generate assembly for a file
+packages/Node/nodeManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.s
+.PHONY : packages/Node/nodeManager.cpp.s
+
+utils/FileManager/filemanager.obj: utils/FileManager/filemanager.cpp.obj
+.PHONY : utils/FileManager/filemanager.obj
+
+# target to build an object file
+utils/FileManager/filemanager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.obj
+.PHONY : utils/FileManager/filemanager.cpp.obj
+
+utils/FileManager/filemanager.i: utils/FileManager/filemanager.cpp.i
+.PHONY : utils/FileManager/filemanager.i
+
+# target to preprocess a source file
+utils/FileManager/filemanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.i
+.PHONY : utils/FileManager/filemanager.cpp.i
+
+utils/FileManager/filemanager.s: utils/FileManager/filemanager.cpp.s
+.PHONY : utils/FileManager/filemanager.s
+
+# target to generate assembly for a file
+utils/FileManager/filemanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.s
+.PHONY : utils/FileManager/filemanager.cpp.s
+
+utils/StringTools/stringtools.obj: utils/StringTools/stringtools.cpp.obj
+.PHONY : utils/StringTools/stringtools.obj
+
+# target to build an object file
+utils/StringTools/stringtools.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/StringTools/stringtools.cpp.obj
+.PHONY : utils/StringTools/stringtools.cpp.obj
+
+utils/StringTools/stringtools.i: utils/StringTools/stringtools.cpp.i
+.PHONY : utils/StringTools/stringtools.i
+
+# target to preprocess a source file
+utils/StringTools/stringtools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/StringTools/stringtools.cpp.i
+.PHONY : utils/StringTools/stringtools.cpp.i
+
+utils/StringTools/stringtools.s: utils/StringTools/stringtools.cpp.s
+.PHONY : utils/StringTools/stringtools.s
+
+# target to generate assembly for a file
+utils/StringTools/stringtools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/StringTools/stringtools.cpp.s
+.PHONY : utils/StringTools/stringtools.cpp.s
+
+utils/curl_request/requests.obj: utils/curl_request/requests.cpp.obj
+.PHONY : utils/curl_request/requests.obj
+
+# target to build an object file
+utils/curl_request/requests.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.obj
+.PHONY : utils/curl_request/requests.cpp.obj
+
+utils/curl_request/requests.i: utils/curl_request/requests.cpp.i
+.PHONY : utils/curl_request/requests.i
+
+# target to preprocess a source file
+utils/curl_request/requests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.i
+.PHONY : utils/curl_request/requests.cpp.i
+
+utils/curl_request/requests.s: utils/curl_request/requests.cpp.s
+.PHONY : utils/curl_request/requests.s
+
+# target to generate assembly for a file
+utils/curl_request/requests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.s
+.PHONY : utils/curl_request/requests.cpp.s
 
 # Help Target
 help:
@@ -160,10 +256,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... callpkg
+	@echo ... CALLPKG
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... packages/Node/nodeManager.obj
+	@echo ... packages/Node/nodeManager.i
+	@echo ... packages/Node/nodeManager.s
+	@echo ... utils/FileManager/filemanager.obj
+	@echo ... utils/FileManager/filemanager.i
+	@echo ... utils/FileManager/filemanager.s
+	@echo ... utils/StringTools/stringtools.obj
+	@echo ... utils/StringTools/stringtools.i
+	@echo ... utils/StringTools/stringtools.s
+	@echo ... utils/curl_request/requests.obj
+	@echo ... utils/curl_request/requests.i
+	@echo ... utils/curl_request/requests.s
 .PHONY : help
 
 

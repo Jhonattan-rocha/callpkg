@@ -1,0 +1,6 @@
+
+class NodeManager
+{
+public:
+    NodeManager();
+};

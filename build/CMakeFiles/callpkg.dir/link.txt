@@ -1,3 +1,3 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\callpkg.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\callpkg.dir/objects.a @CMakeFiles\callpkg.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\callpkg.dir/objects.a -Wl,--no-whole-archive -o callpkg.exe -Wl,--out-implib,libcallpkg.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\callpkg.dir\linkLibs.rsp
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\CALLPKG.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\CALLPKG.dir/objects.a @CMakeFiles\CALLPKG.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CALLPKG.dir/objects.a -Wl,--no-whole-archive -o CALLPKG.exe -Wl,--out-implib,libCALLPKG.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CALLPKG.dir\linkLibs.rsp

@@ -1,17 +1,25 @@
 cmake_minimum_required(VERSION 3.5)
-project(callpkg VERSION 0.1 LANGUAGES CXX)
+project(CALLPKG)
 
 set(CMAKE_CXX_STANDARD 20)  # Define a versão do C++ que será utilizada
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_INCLUDE_DIRECTORIES_BEFORE ON)
 
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/src/**")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/utils")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/packages")
 
 # Adiciona os arquivos fonte do seu projeto
-add_executable(callpkg main.cpp)
+add_executable(CALLPKG 
+    main.cpp
+    utils/StringTools/stringtools.h utils/StringTools/stringtools.cpp
+    utils/FileManager/filemanager.h utils/FileManager/filemanager.cpp
+    utils/curl_request/requests.h utils/curl_request/requests.cpp
+    packages/Node/nodeManager.h packages/Node/nodeManager.cpp
+)
 
 # Define as bibliotecas que seu projeto precisa
 find_package(CURL REQUIRED)
 include_directories(${CURL_INCLUDE_DIRS})
-target_link_libraries(callpkg ${CURL_LIBRARIES})
+target_link_libraries(CALLPKG ${CURL_LIBRARIES})

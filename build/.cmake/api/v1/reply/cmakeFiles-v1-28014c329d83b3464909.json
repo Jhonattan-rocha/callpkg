@@ -20,6 +20,10 @@
 		},
 		{
 			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.0/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
 			"path" : "build/CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
 		},
 		{
@@ -50,6 +54,65 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.0/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "C:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake"
 		},
 		{
@@ -70,31 +133,12 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.29.0/CMakeRCCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake"
 		},
 		{
 			"isCMake" : true,

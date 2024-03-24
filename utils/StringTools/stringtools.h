@@ -1,5 +1,3 @@
-#ifndef STIRNGTOOLS_H
-#define STIRNGTOOLS_H
 #include <string>
 #include <vector>
 
@@ -15,5 +13,3 @@ public:
     std::vector<size_t> find(const std::string& search, const std::string& str, const bool all);
     std::string limit_str(int limit, std::string value);
 };
-
-#endif // STIRNGTOOLS_H

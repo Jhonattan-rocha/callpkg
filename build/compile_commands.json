@@ -1,8 +1,32 @@
 [
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/callpkg.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\callpkg.dir\\main.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\main.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\main.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\main.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/main.cpp",
-  "output": "CMakeFiles/callpkg.dir/main.cpp.obj"
+  "output": "CMakeFiles/CALLPKG.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\StringTools\\stringtools.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\StringTools\\stringtools.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/StringTools/stringtools.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/utils/StringTools/stringtools.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\FileManager\\filemanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\FileManager\\filemanager.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/FileManager/filemanager.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\curl_request\\requests.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\curl_request\\requests.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/curl_request/requests.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\packages\\Node\\nodeManager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\packages\\Node\\nodeManager.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/packages/Node/nodeManager.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj"
 }
 ]
