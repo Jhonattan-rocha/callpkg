@@ -17,9 +17,15 @@ add_executable(CALLPKG
     utils/FileManager/filemanager.h utils/FileManager/filemanager.cpp
     utils/curl_request/requests.h utils/curl_request/requests.cpp
     packages/Node/nodeManager.h packages/Node/nodeManager.cpp
+    utils/PathManager/pathmanager.h utils/PathManager/pathmanager.cpp
+    utils/Linux/linux.h utils/Linux/linux.cpp
 )
 
 # Define as bibliotecas que seu projeto precisa
 find_package(CURL REQUIRED)
 include_directories(${CURL_INCLUDE_DIRS})
 target_link_libraries(CALLPKG ${CURL_LIBRARIES})
+
+find_package(nlohmann_json REQUIRED)
+include_directories(${nlohmann_json_INCLUDE_DIRS})
+target_link_libraries(CALLPKG ${nlohmann_json_LIBRARIES})

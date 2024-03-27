@@ -39,6 +39,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake"
   "C:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+  "C:/msys64/mingw64/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+  "C:/msys64/mingw64/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+  "C:/msys64/mingw64/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
   )
 
 # The corresponding makefile is:

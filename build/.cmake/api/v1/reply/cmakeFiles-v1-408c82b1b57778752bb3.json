@@ -184,6 +184,28 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/msys64/mingw64/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

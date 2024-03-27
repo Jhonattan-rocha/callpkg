@@ -3,6 +3,9 @@
 #include <iostream>
 #include <vector>
 #include <filesystem>
+#include <nlohmann/json.hpp>
+
+using json = nlohmann::json;
 
 class FileManager {
 public:
@@ -15,6 +18,8 @@ public:
     std::string read();
     std::vector<char> readBytes();
     void close();
+    void writeJson(const json& data);
+    json readJson();
 private:
     std::fstream file;
     std::string file_path;

@@ -200,6 +200,54 @@ utils/FileManager/filemanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.s
 .PHONY : utils/FileManager/filemanager.cpp.s
 
+utils/Linux/linux.obj: utils/Linux/linux.cpp.obj
+.PHONY : utils/Linux/linux.obj
+
+# target to build an object file
+utils/Linux/linux.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj
+.PHONY : utils/Linux/linux.cpp.obj
+
+utils/Linux/linux.i: utils/Linux/linux.cpp.i
+.PHONY : utils/Linux/linux.i
+
+# target to preprocess a source file
+utils/Linux/linux.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.i
+.PHONY : utils/Linux/linux.cpp.i
+
+utils/Linux/linux.s: utils/Linux/linux.cpp.s
+.PHONY : utils/Linux/linux.s
+
+# target to generate assembly for a file
+utils/Linux/linux.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.s
+.PHONY : utils/Linux/linux.cpp.s
+
+utils/PathManager/pathmanager.obj: utils/PathManager/pathmanager.cpp.obj
+.PHONY : utils/PathManager/pathmanager.obj
+
+# target to build an object file
+utils/PathManager/pathmanager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj
+.PHONY : utils/PathManager/pathmanager.cpp.obj
+
+utils/PathManager/pathmanager.i: utils/PathManager/pathmanager.cpp.i
+.PHONY : utils/PathManager/pathmanager.i
+
+# target to preprocess a source file
+utils/PathManager/pathmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.i
+.PHONY : utils/PathManager/pathmanager.cpp.i
+
+utils/PathManager/pathmanager.s: utils/PathManager/pathmanager.cpp.s
+.PHONY : utils/PathManager/pathmanager.s
+
+# target to generate assembly for a file
+utils/PathManager/pathmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.s
+.PHONY : utils/PathManager/pathmanager.cpp.s
+
 utils/StringTools/stringtools.obj: utils/StringTools/stringtools.cpp.obj
 .PHONY : utils/StringTools/stringtools.obj
 
@@ -266,6 +314,12 @@ help:
 	@echo ... utils/FileManager/filemanager.obj
 	@echo ... utils/FileManager/filemanager.i
 	@echo ... utils/FileManager/filemanager.s
+	@echo ... utils/Linux/linux.obj
+	@echo ... utils/Linux/linux.i
+	@echo ... utils/Linux/linux.s
+	@echo ... utils/PathManager/pathmanager.obj
+	@echo ... utils/PathManager/pathmanager.i
+	@echo ... utils/PathManager/pathmanager.s
 	@echo ... utils/StringTools/stringtools.obj
 	@echo ... utils/StringTools/stringtools.i
 	@echo ... utils/StringTools/stringtools.s

@@ -34,17 +34,17 @@ void FileManager::write(const std::string& data) {
 }
 
 std::string FileManager::read() {
-    std::string conteudo;
+    std::string file_data;
     if (file.is_open()) {
         file.seekg(0, std::ios::end);
-        conteudo.reserve(file.tellg());
+        file_data.reserve(file.tellg());
         file.seekg(0, std::ios::beg);
-        conteudo.assign((std::istreambuf_iterator<char>(file)),
+        file_data.assign((std::istreambuf_iterator<char>(file)),
                         std::istreambuf_iterator<char>());
     } else {
         throw std::ios_base::failure("Erro ao ler o arquivo.");
     }
-    return conteudo;
+    return file_data;
 }
 
 std::vector<char> FileManager::readBytes() {
@@ -66,6 +66,25 @@ void FileManager::close() {
         file.close();
     }
 }
+
+void FileManager::writeJson(const json& data) {
+    if (file.is_open()) {
+        file << std::setw(4) << data; // Escreve o JSON formatado com indentação
+    } else {
+        throw std::ios_base::failure("Erro ao escrever no arquivo.");
+    }
+}
+
+json FileManager::readJson() {
+    json file_data;
+    if (file.is_open()) {
+        file >> file_data;
+    } else {
+        throw std::ios_base::failure("Erro ao ler o arquivo.");
+    }
+    return file_data;
+}
+
 
 FileManager::FileManager(const std::string& path, std::ios_base::openmode mode){
     file.open(path, mode);

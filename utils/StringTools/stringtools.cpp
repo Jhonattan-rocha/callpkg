@@ -1,5 +1,5 @@
 #include "stringtools.h"
-#include <iomanip>
+
 StringTools::StringTools() {}
 
 std::vector<std::string> StringTools::split(const std::string& str, char delimiter) {

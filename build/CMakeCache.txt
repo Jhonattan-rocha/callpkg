@@ -277,6 +277,9 @@ callpkg_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 callpkg_SOURCE_DIR:STATIC=C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg
 
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=C:/msys64/mingw64/share/cmake/nlohmann_json
+
 //Path to a library.
 pkgcfg_lib_PC_CURL_curl:FILEPATH=C:/msys64/mingw64/lib/libcurl.dll.a
 
@@ -451,6 +454,8 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[C:/msys64/mingw64/lib/libcurl.dll.a][C:/msys64/mingw64/include][c ][v8.6.0()]
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[C:/msys64/mingw64/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.3()]
 PC_CURL_CFLAGS:INTERNAL=-IC:/msys64/mingw64/bin/../include
 PC_CURL_CFLAGS_I:INTERNAL=
 PC_CURL_CFLAGS_OTHER:INTERNAL=

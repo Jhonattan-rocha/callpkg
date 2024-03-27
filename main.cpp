@@ -6,14 +6,17 @@
 #include <Node/nodeManager.h>
 
 int main(int argc, char *argv[]){
-
-    FileManager fm("../page.html", std::ios_base::out);
-
     Requests req;
     
-    std::unordered_map<std::string, std::string> response = req.get("https://www.google.com/search?q=403+http+response+code&rlz=1C1CHZN_pt-BRBR1052BR1052&oq=403+http+res&gs_lcrp=EgZjaHJvbWUqCQgCEAAYExiABDIGCAAQRRg5MgkIARAAGBMYgAQyCQgCEAAYExiABDIMCAMQABgPGBMYFhgeMgoIBBAAGBMYFhgeMgoIBRAAGBMYFhgeMgoIBhAAGBMYFhgeMgoIBxAAGBMYFhgeMgoICBAAGBMYFhgeMgoICRAAGBMYFhge0gEINDAwMWowajeoAgiwAgE&sourceid=chrome&ie=UTF-8", {});
+    std::unordered_map<std::string, std::string> response = req.get("https://www.youtube.com/watch?v=StPJhWmfzjU&list=RDStPJhWmfzjU&start_radio=1", {});
+    FileManager fm("../yout.html", std::ios_base::out);
 
     fm.write(response["response_body"]);
+    
+    fm.close();
 
+    std::cout << response["headers"] << std::endl;
+
+    system("pause");
     return 0;
 }
