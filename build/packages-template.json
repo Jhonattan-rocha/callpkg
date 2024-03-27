@@ -1,0 +1,29 @@
+{
+    "Softwares": [
+        {
+            "software-name": "name",
+            "URL-Downloads": [
+            ],
+            "Platforms": [
+                {
+                    "windows": [
+                        {
+                            "instalation-commands": [
+
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "linux": [
+                        {
+                            "instalation-commands": [
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

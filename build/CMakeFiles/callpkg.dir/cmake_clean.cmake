@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.obj.d"
   "CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj"
   "CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj.d"
+  "CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj"
+  "CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj.d"
   "CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj"
   "CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj.d"
   "CMakeFiles/CALLPKG.dir/utils/StringTools/stringtools.cpp.obj"

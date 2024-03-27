@@ -19,6 +19,7 @@ add_executable(CALLPKG
     packages/Node/nodeManager.h packages/Node/nodeManager.cpp
     utils/PathManager/pathmanager.h utils/PathManager/pathmanager.cpp
     utils/Linux/linux.h utils/Linux/linux.cpp
+    utils/PackagesManager/packagesmanager.h utils/PackagesManager/packagesmanager.cpp
 )
 
 # Define as bibliotecas que seu projeto precisa

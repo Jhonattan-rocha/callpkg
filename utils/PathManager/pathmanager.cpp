@@ -31,7 +31,11 @@ std::string PathManager::getUserName(){
 }
 
 std::string PathManager::getMainPath(){
-    return "C:\\Users\\" + this->getUserName();
+    #ifdef _WIN32
+        return "C:\\Users\\" + this->getUserName();
+    #elif __linux__
+        return "/home/" + this->getUserName();
+    #endif
 }
 
 std::vector<FileInfo> PathManager::listDir(const std::wstring& path) {

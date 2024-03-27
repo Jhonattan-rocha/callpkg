@@ -1,4 +1,3 @@
-#ifdef _WIN32
 
 #include <filesystem>
 #include <exception>
@@ -28,4 +27,3 @@ public:
     void delDirectory(const std::string& full_path);
 };
 
-#endif // PATHMANAGER_H

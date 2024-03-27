@@ -224,6 +224,30 @@ utils/Linux/linux.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.s
 .PHONY : utils/Linux/linux.cpp.s
 
+utils/PackagesManager/packagesmanager.obj: utils/PackagesManager/packagesmanager.cpp.obj
+.PHONY : utils/PackagesManager/packagesmanager.obj
+
+# target to build an object file
+utils/PackagesManager/packagesmanager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj
+.PHONY : utils/PackagesManager/packagesmanager.cpp.obj
+
+utils/PackagesManager/packagesmanager.i: utils/PackagesManager/packagesmanager.cpp.i
+.PHONY : utils/PackagesManager/packagesmanager.i
+
+# target to preprocess a source file
+utils/PackagesManager/packagesmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.i
+.PHONY : utils/PackagesManager/packagesmanager.cpp.i
+
+utils/PackagesManager/packagesmanager.s: utils/PackagesManager/packagesmanager.cpp.s
+.PHONY : utils/PackagesManager/packagesmanager.s
+
+# target to generate assembly for a file
+utils/PackagesManager/packagesmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.s
+.PHONY : utils/PackagesManager/packagesmanager.cpp.s
+
 utils/PathManager/pathmanager.obj: utils/PathManager/pathmanager.cpp.obj
 .PHONY : utils/PathManager/pathmanager.obj
 
@@ -317,6 +341,9 @@ help:
 	@echo ... utils/Linux/linux.obj
 	@echo ... utils/Linux/linux.i
 	@echo ... utils/Linux/linux.s
+	@echo ... utils/PackagesManager/packagesmanager.obj
+	@echo ... utils/PackagesManager/packagesmanager.i
+	@echo ... utils/PackagesManager/packagesmanager.s
 	@echo ... utils/PathManager/pathmanager.obj
 	@echo ... utils/PathManager/pathmanager.i
 	@echo ... utils/PathManager/pathmanager.s

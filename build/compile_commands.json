@@ -40,5 +40,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\Linux\\linux.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\Linux\\linux.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/Linux/linux.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\PackagesManager\\packagesmanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\PackagesManager\\packagesmanager.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/PackagesManager/packagesmanager.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj"
 }
 ]
