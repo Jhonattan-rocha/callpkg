@@ -11,19 +11,6 @@ Linux::~Linux()
 {
 }
 
-std::string Linux::exec(const char* cmd) {
-    std::string result, line;
-    FILE* pipe = popen(cmd, "r");
-    if (!pipe) {
-        return "";
-    }
-    while (fgets(line.c_str(), sizeof(line), pipe) != NULL) {
-        result += line;
-    }
-    pclose(pipe);
-    return result;
-}
-
 // Função para determinar a distribuição Linux atual
 std::string Linux::getLinuxDistribution() {
     std::string distro;

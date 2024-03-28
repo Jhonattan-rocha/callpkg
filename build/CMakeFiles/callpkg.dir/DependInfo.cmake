@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Exec/exec.cpp" "CMakeFiles/callpkg.dir/Commands/Exec/exec.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/Commands/Exec/exec.cpp.obj.d"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Install/install.cpp" "CMakeFiles/callpkg.dir/Commands/Install/install.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/Commands/Install/install.cpp.obj.d"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/main.cpp" "CMakeFiles/callpkg.dir/main.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/main.cpp.obj.d"
-  "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/packages/Node/nodeManager.cpp" "CMakeFiles/callpkg.dir/packages/node/nodeManager.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/packages/node/nodeManager.cpp.obj.d"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/FileManager/filemanager.cpp" "CMakeFiles/callpkg.dir/utils/FileManager/filemanager.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/utils/FileManager/filemanager.cpp.obj.d"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/Linux/linux.cpp" "CMakeFiles/callpkg.dir/utils/Linux/linux.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/utils/Linux/linux.cpp.obj.d"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/PackagesManager/packagesmanager.cpp" "CMakeFiles/callpkg.dir/utils/PackagesManager/packagesmanager.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/utils/PackagesManager/packagesmanager.cpp.obj.d"

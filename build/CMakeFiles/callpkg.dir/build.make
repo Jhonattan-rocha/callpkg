@@ -128,26 +128,11 @@ CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\utils\curl_request\requests.cpp" -o CMakeFiles\CALLPKG.dir\utils\curl_request\requests.cpp.s
 
-CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj: CMakeFiles/CALLPKG.dir/flags.make
-CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj: CMakeFiles/CALLPKG.dir/includes_CXX.rsp
-CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj: C:/Users/Jhinattan\ Rocha/Documents/GitHub/callpkg/packages/Node/nodeManager.cpp
-CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj: CMakeFiles/CALLPKG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj -MF CMakeFiles\CALLPKG.dir\packages\Node\nodeManager.cpp.obj.d -o CMakeFiles\CALLPKG.dir\packages\Node\nodeManager.cpp.obj -c "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\packages\Node\nodeManager.cpp"
-
-CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\packages\Node\nodeManager.cpp" > CMakeFiles\CALLPKG.dir\packages\Node\nodeManager.cpp.i
-
-CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\packages\Node\nodeManager.cpp" -o CMakeFiles\CALLPKG.dir\packages\Node\nodeManager.cpp.s
-
 CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj: CMakeFiles/CALLPKG.dir/flags.make
 CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj: CMakeFiles/CALLPKG.dir/includes_CXX.rsp
 CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj: C:/Users/Jhinattan\ Rocha/Documents/GitHub/callpkg/utils/PathManager/pathmanager.cpp
 CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj: CMakeFiles/CALLPKG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj -MF CMakeFiles\CALLPKG.dir\utils\PathManager\pathmanager.cpp.obj.d -o CMakeFiles\CALLPKG.dir\utils\PathManager\pathmanager.cpp.obj -c "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\utils\PathManager\pathmanager.cpp"
 
 CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.i: cmake_force
@@ -162,7 +147,7 @@ CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj: CMakeFiles/CALLPKG.dir/flags.m
 CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj: CMakeFiles/CALLPKG.dir/includes_CXX.rsp
 CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj: C:/Users/Jhinattan\ Rocha/Documents/GitHub/callpkg/utils/Linux/linux.cpp
 CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj: CMakeFiles/CALLPKG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj -MF CMakeFiles\CALLPKG.dir\utils\Linux\linux.cpp.obj.d -o CMakeFiles\CALLPKG.dir\utils\Linux\linux.cpp.obj -c "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\utils\Linux\linux.cpp"
 
 CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.i: cmake_force
@@ -177,7 +162,7 @@ CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj: CMakeFiles
 CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj: CMakeFiles/CALLPKG.dir/includes_CXX.rsp
 CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj: C:/Users/Jhinattan\ Rocha/Documents/GitHub/callpkg/utils/PackagesManager/packagesmanager.cpp
 CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj: CMakeFiles/CALLPKG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj -MF CMakeFiles\CALLPKG.dir\utils\PackagesManager\packagesmanager.cpp.obj.d -o CMakeFiles\CALLPKG.dir\utils\PackagesManager\packagesmanager.cpp.obj -c "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\utils\PackagesManager\packagesmanager.cpp"
 
 CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.i: cmake_force
@@ -188,16 +173,47 @@ CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\utils\PackagesManager\packagesmanager.cpp" -o CMakeFiles\CALLPKG.dir\utils\PackagesManager\packagesmanager.cpp.s
 
+CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj: CMakeFiles/CALLPKG.dir/flags.make
+CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj: CMakeFiles/CALLPKG.dir/includes_CXX.rsp
+CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj: C:/Users/Jhinattan\ Rocha/Documents/GitHub/callpkg/Commands/Install/install.cpp
+CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj: CMakeFiles/CALLPKG.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj -MF CMakeFiles\CALLPKG.dir\Commands\Install\install.cpp.obj.d -o CMakeFiles\CALLPKG.dir\Commands\Install\install.cpp.obj -c "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Install\install.cpp"
+
+CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Install\install.cpp" > CMakeFiles\CALLPKG.dir\Commands\Install\install.cpp.i
+
+CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Install\install.cpp" -o CMakeFiles\CALLPKG.dir\Commands\Install\install.cpp.s
+
+CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj: CMakeFiles/CALLPKG.dir/flags.make
+CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj: CMakeFiles/CALLPKG.dir/includes_CXX.rsp
+CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj: C:/Users/Jhinattan\ Rocha/Documents/GitHub/callpkg/Commands/Exec/exec.cpp
+CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj: CMakeFiles/CALLPKG.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj -MF CMakeFiles\CALLPKG.dir\Commands\Exec\exec.cpp.obj.d -o CMakeFiles\CALLPKG.dir\Commands\Exec\exec.cpp.obj -c "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Exec\exec.cpp"
+
+CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Exec\exec.cpp" > CMakeFiles\CALLPKG.dir\Commands\Exec\exec.cpp.i
+
+CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Exec\exec.cpp" -o CMakeFiles\CALLPKG.dir\Commands\Exec\exec.cpp.s
+
 # Object files for target CALLPKG
 CALLPKG_OBJECTS = \
 "CMakeFiles/CALLPKG.dir/main.cpp.obj" \
 "CMakeFiles/CALLPKG.dir/utils/StringTools/stringtools.cpp.obj" \
 "CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.obj" \
 "CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.obj" \
-"CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj" \
 "CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj" \
 "CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj" \
-"CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj"
+"CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj" \
+"CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj" \
+"CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj"
 
 # External object files for target CALLPKG
 CALLPKG_EXTERNAL_OBJECTS =
@@ -206,16 +222,17 @@ CALLPKG.exe: CMakeFiles/CALLPKG.dir/main.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/utils/StringTools/stringtools.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.obj
-CALLPKG.exe: CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj
+CALLPKG.exe: CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj
+CALLPKG.exe: CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/build.make
 CALLPKG.exe: C:/msys64/mingw64/lib/libcurl.dll.a
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/linkLibs.rsp
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/objects1.rsp
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CALLPKG.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CALLPKG.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CALLPKG.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

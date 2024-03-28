@@ -1,6 +1,0 @@
-
-class NodeManager
-{
-public:
-    NodeManager();
-};

@@ -8,7 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_INCLUDE_DIRECTORIES_BEFORE ON)
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/utils")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/packages")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/Commands")
 
 # Adiciona os arquivos fonte do seu projeto
 add_executable(CALLPKG 
@@ -16,10 +16,12 @@ add_executable(CALLPKG
     utils/StringTools/stringtools.h utils/StringTools/stringtools.cpp
     utils/FileManager/filemanager.h utils/FileManager/filemanager.cpp
     utils/curl_request/requests.h utils/curl_request/requests.cpp
-    packages/Node/nodeManager.h packages/Node/nodeManager.cpp
     utils/PathManager/pathmanager.h utils/PathManager/pathmanager.cpp
     utils/Linux/linux.h utils/Linux/linux.cpp
     utils/PackagesManager/packagesmanager.h utils/PackagesManager/packagesmanager.cpp
+    Commands/Install/install.h Commands/Install/install.cpp
+    Commands/Exec/exec.h Commands/Exec/exec.cpp
+
 )
 
 # Define as bibliotecas que seu projeto precisa

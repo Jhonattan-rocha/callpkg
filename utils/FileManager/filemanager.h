@@ -12,6 +12,7 @@ public:
     FileManager();
     FileManager(const std::string& path, std::ios_base::openmode mode);
     ~FileManager();
+    bool is_open();
     void open(const std::string& path, std::ios_base::openmode modo);
     void write(const std::string& data);
     void destroy();

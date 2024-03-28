@@ -6,8 +6,6 @@
 
 class Linux
 {
-private:
-    std::string exec(const char* cmd);
 public:
     Linux();
     ~Linux();

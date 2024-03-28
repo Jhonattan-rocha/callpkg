@@ -25,6 +25,10 @@ void FileManager::open(const std::string& path, std::ios_base::openmode modo) {
     }
 }
 
+bool FileManager::is_open(){
+    return file.is_open();
+}
+
 void FileManager::write(const std::string& data) {
     if (file.is_open()) {
         file << data;

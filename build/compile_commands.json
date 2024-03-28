@@ -25,12 +25,6 @@
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\packages\\Node\\nodeManager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\packages\\Node\\nodeManager.cpp\"",
-  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/packages/Node/nodeManager.cpp",
-  "output": "CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj"
-},
-{
-  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\PathManager\\pathmanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\PathManager\\pathmanager.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/PathManager/pathmanager.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj"
@@ -46,5 +40,17 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\PackagesManager\\packagesmanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\PackagesManager\\packagesmanager.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/PackagesManager/packagesmanager.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Install\\install.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Install\\install.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Install/install.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Exec\\exec.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Exec\\exec.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Exec/exec.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj"
 }
 ]

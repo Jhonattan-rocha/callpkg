@@ -128,6 +128,54 @@ CALLPKG/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/build
 .PHONY : CALLPKG/fast
 
+Commands/Exec/exec.obj: Commands/Exec/exec.cpp.obj
+.PHONY : Commands/Exec/exec.obj
+
+# target to build an object file
+Commands/Exec/exec.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj
+.PHONY : Commands/Exec/exec.cpp.obj
+
+Commands/Exec/exec.i: Commands/Exec/exec.cpp.i
+.PHONY : Commands/Exec/exec.i
+
+# target to preprocess a source file
+Commands/Exec/exec.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.i
+.PHONY : Commands/Exec/exec.cpp.i
+
+Commands/Exec/exec.s: Commands/Exec/exec.cpp.s
+.PHONY : Commands/Exec/exec.s
+
+# target to generate assembly for a file
+Commands/Exec/exec.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.s
+.PHONY : Commands/Exec/exec.cpp.s
+
+Commands/Install/install.obj: Commands/Install/install.cpp.obj
+.PHONY : Commands/Install/install.obj
+
+# target to build an object file
+Commands/Install/install.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj
+.PHONY : Commands/Install/install.cpp.obj
+
+Commands/Install/install.i: Commands/Install/install.cpp.i
+.PHONY : Commands/Install/install.i
+
+# target to preprocess a source file
+Commands/Install/install.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.i
+.PHONY : Commands/Install/install.cpp.i
+
+Commands/Install/install.s: Commands/Install/install.cpp.s
+.PHONY : Commands/Install/install.s
+
+# target to generate assembly for a file
+Commands/Install/install.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.s
+.PHONY : Commands/Install/install.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,30 +199,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-packages/Node/nodeManager.obj: packages/Node/nodeManager.cpp.obj
-.PHONY : packages/Node/nodeManager.obj
-
-# target to build an object file
-packages/Node/nodeManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.obj
-.PHONY : packages/Node/nodeManager.cpp.obj
-
-packages/Node/nodeManager.i: packages/Node/nodeManager.cpp.i
-.PHONY : packages/Node/nodeManager.i
-
-# target to preprocess a source file
-packages/Node/nodeManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.i
-.PHONY : packages/Node/nodeManager.cpp.i
-
-packages/Node/nodeManager.s: packages/Node/nodeManager.cpp.s
-.PHONY : packages/Node/nodeManager.s
-
-# target to generate assembly for a file
-packages/Node/nodeManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/packages/Node/nodeManager.cpp.s
-.PHONY : packages/Node/nodeManager.cpp.s
 
 utils/FileManager/filemanager.obj: utils/FileManager/filemanager.cpp.obj
 .PHONY : utils/FileManager/filemanager.obj
@@ -329,12 +353,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CALLPKG
+	@echo ... Commands/Exec/exec.obj
+	@echo ... Commands/Exec/exec.i
+	@echo ... Commands/Exec/exec.s
+	@echo ... Commands/Install/install.obj
+	@echo ... Commands/Install/install.i
+	@echo ... Commands/Install/install.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... packages/Node/nodeManager.obj
-	@echo ... packages/Node/nodeManager.i
-	@echo ... packages/Node/nodeManager.s
 	@echo ... utils/FileManager/filemanager.obj
 	@echo ... utils/FileManager/filemanager.i
 	@echo ... utils/FileManager/filemanager.s

@@ -56,7 +56,12 @@
         "typeinfo": "cpp",
         "filesystem": "cpp",
         "ranges": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "any": "cpp",
+        "forward_list": "cpp",
+        "map": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
