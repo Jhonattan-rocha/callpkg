@@ -152,53 +152,29 @@ Commands/Exec/exec.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.s
 .PHONY : Commands/Exec/exec.cpp.s
 
-Commands/Install/install.obj: Commands/Install/install.cpp.obj
-.PHONY : Commands/Install/install.obj
+Commands/GenericCommand/genericcommand.obj: Commands/GenericCommand/genericcommand.cpp.obj
+.PHONY : Commands/GenericCommand/genericcommand.obj
 
 # target to build an object file
-Commands/Install/install.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj
-.PHONY : Commands/Install/install.cpp.obj
+Commands/GenericCommand/genericcommand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/GenericCommand/genericcommand.cpp.obj
+.PHONY : Commands/GenericCommand/genericcommand.cpp.obj
 
-Commands/Install/install.i: Commands/Install/install.cpp.i
-.PHONY : Commands/Install/install.i
-
-# target to preprocess a source file
-Commands/Install/install.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.i
-.PHONY : Commands/Install/install.cpp.i
-
-Commands/Install/install.s: Commands/Install/install.cpp.s
-.PHONY : Commands/Install/install.s
-
-# target to generate assembly for a file
-Commands/Install/install.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.s
-.PHONY : Commands/Install/install.cpp.s
-
-Commands/Uninstall/uninstall.obj: Commands/Uninstall/uninstall.cpp.obj
-.PHONY : Commands/Uninstall/uninstall.obj
-
-# target to build an object file
-Commands/Uninstall/uninstall.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj
-.PHONY : Commands/Uninstall/uninstall.cpp.obj
-
-Commands/Uninstall/uninstall.i: Commands/Uninstall/uninstall.cpp.i
-.PHONY : Commands/Uninstall/uninstall.i
+Commands/GenericCommand/genericcommand.i: Commands/GenericCommand/genericcommand.cpp.i
+.PHONY : Commands/GenericCommand/genericcommand.i
 
 # target to preprocess a source file
-Commands/Uninstall/uninstall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.i
-.PHONY : Commands/Uninstall/uninstall.cpp.i
+Commands/GenericCommand/genericcommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/GenericCommand/genericcommand.cpp.i
+.PHONY : Commands/GenericCommand/genericcommand.cpp.i
 
-Commands/Uninstall/uninstall.s: Commands/Uninstall/uninstall.cpp.s
-.PHONY : Commands/Uninstall/uninstall.s
+Commands/GenericCommand/genericcommand.s: Commands/GenericCommand/genericcommand.cpp.s
+.PHONY : Commands/GenericCommand/genericcommand.s
 
 # target to generate assembly for a file
-Commands/Uninstall/uninstall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.s
-.PHONY : Commands/Uninstall/uninstall.cpp.s
+Commands/GenericCommand/genericcommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/GenericCommand/genericcommand.cpp.s
+.PHONY : Commands/GenericCommand/genericcommand.cpp.s
 
 Commands/Validate/validate.obj: Commands/Validate/validate.cpp.obj
 .PHONY : Commands/Validate/validate.obj
@@ -404,12 +380,9 @@ help:
 	@echo ... Commands/Exec/exec.obj
 	@echo ... Commands/Exec/exec.i
 	@echo ... Commands/Exec/exec.s
-	@echo ... Commands/Install/install.obj
-	@echo ... Commands/Install/install.i
-	@echo ... Commands/Install/install.s
-	@echo ... Commands/Uninstall/uninstall.obj
-	@echo ... Commands/Uninstall/uninstall.i
-	@echo ... Commands/Uninstall/uninstall.s
+	@echo ... Commands/GenericCommand/genericcommand.obj
+	@echo ... Commands/GenericCommand/genericcommand.i
+	@echo ... Commands/GenericCommand/genericcommand.s
 	@echo ... Commands/Validate/validate.obj
 	@echo ... Commands/Validate/validate.i
 	@echo ... Commands/Validate/validate.s

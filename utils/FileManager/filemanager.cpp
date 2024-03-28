@@ -11,17 +11,17 @@ void FileManager::destroy(){
             std::filesystem::remove(file_path);
 
             if (std::filesystem::exists(file_path)) {
-                throw std::ios_base::failure("Erro ao deletar o arquivo.");
+                throw std::ios::failure("Erro ao deletar o arquivo.");
             }
         }
     }
 }
 
-void FileManager::open(const std::string& path, std::ios_base::openmode modo) {
+void FileManager::open(const std::string& path, std::ios::openmode modo) {
     file.open(path, modo);
     this->file_path = path;
     if (!file.is_open()) {
-        throw std::ios_base::failure("Erro ao abrir o arquivo.");
+        throw std::ios::failure("Erro ao abrir o arquivo.");
     }
 }
 
@@ -31,9 +31,9 @@ bool FileManager::is_open(){
 
 void FileManager::write(const std::string& data) {
     if (file.is_open()) {
-        file << data;
+        file.write(data.c_str(), data.size());
     } else {
-        throw std::ios_base::failure("Erro ao escrever no arquivo.");
+        throw std::ios::failure("Erro ao escrever no arquivo.");
     }
 }
 
@@ -46,7 +46,7 @@ std::string FileManager::read() {
         file_data.assign((std::istreambuf_iterator<char>(file)),
                         std::istreambuf_iterator<char>());
     } else {
-        throw std::ios_base::failure("Erro ao ler o arquivo.");
+        throw std::ios::failure("Erro ao ler o arquivo.");
     }
     return file_data;
 }
@@ -60,7 +60,7 @@ std::vector<char> FileManager::readBytes() {
         bytes.assign((std::istreambuf_iterator<char>(file)),
                      std::istreambuf_iterator<char>());
     } else {
-        throw std::ios_base::failure("Erro ao ler o arquivo.");
+        throw std::ios::failure("Erro ao ler o arquivo.");
     }
     return bytes;
 }
@@ -75,7 +75,7 @@ void FileManager::writeJson(const json& data) {
     if (file.is_open()) {
         file << std::setw(4) << data; // Escreve o JSON formatado com indentação
     } else {
-        throw std::ios_base::failure("Erro ao escrever no arquivo.");
+        throw std::ios::failure("Erro ao escrever no arquivo.");
     }
 }
 
@@ -84,14 +84,14 @@ json FileManager::readJson() {
     if (file.is_open()) {
         file >> file_data;
     } else {
-        throw std::ios_base::failure("Erro ao ler o arquivo.");
+        throw std::ios::failure("Erro ao ler o arquivo.");
     }
     return file_data;
 }
 
 
-FileManager::FileManager(const std::string& path, std::ios_base::openmode mode){
-    file.open(path, mode);
+FileManager::FileManager(const std::string& path, std::ios::openmode mode){
+    this->open(path, mode);
 }
 
 FileManager::FileManager(){

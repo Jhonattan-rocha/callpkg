@@ -80,12 +80,12 @@ clean: CMakeFiles/CALLPKG.dir/clean
 CMakeFiles/CALLPKG.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target CALLPKG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target CALLPKG"
 .PHONY : CMakeFiles/CALLPKG.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CALLPKG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" 12
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CALLPKG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" 0
 .PHONY : CMakeFiles/CALLPKG.dir/rule

@@ -17,8 +17,8 @@ public:
     std::unordered_map<std::string, std::string> put(const std::string& url, const std::unordered_map<std::string, std::string>& headers_map, const std::unordered_map<std::string, std::string> data_map);
     std::unordered_map<std::string, std::string> del(const std::string& url, const std::unordered_map<std::string, std::string>& headers_map, const std::unordered_map<std::string, std::string> data_map);
 private:
-    static size_t WriteCallback(void *contents, size_t size, size_t nmemb, std::string *buffer);
-    static size_t HeaderCallback(char *buffer, size_t size, size_t nitems, std::string *headers);
+    static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *buffer);
+    static size_t HeaderCallback(void *buffer, size_t size, size_t nitems, void *headers);
 };
 
 

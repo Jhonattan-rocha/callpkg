@@ -2,15 +2,15 @@
 
 Requests::Requests(){}
 
-size_t Requests::WriteCallback(void *contents, size_t size, size_t nmemb, std::string *buffer) {
+size_t Requests::WriteCallback(void *contents, size_t size, size_t nmemb, void *buffer) {
     size_t total_size = size * nmemb;
-    buffer->append(static_cast<char*>(contents), total_size);
+    ((std::string*)buffer)->append(static_cast<char*>(contents), total_size);
     return total_size;
 }
 
-size_t Requests::HeaderCallback(char *buffer, size_t size, size_t nitems, std::string *headers) {
+size_t Requests::HeaderCallback(void *buffer, size_t size, size_t nitems, void *headers) {
     size_t total_size = size * nitems;
-    headers->append(buffer, total_size);
+    ((std::string*)headers)->append(static_cast<char*>(buffer), total_size);
     return total_size;
 }
 
@@ -27,13 +27,13 @@ std::unordered_map<std::string, std::string> Requests::get(const std::string& ur
         if(curl) {
             // Configura a URL
             curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
-
+            curl_easy_setopt(curl, CURLOPT_HTTPGET, 1L);
             // Configura a função de callback para receber os dados
-            curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, this->WriteCallback);
+            curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, Requests::WriteCallback);
             curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response_buffer);
 
             // Configura a função de callback para receber os cabeçalhos
-            curl_easy_setopt(curl, CURLOPT_HEADERFUNCTION, this->HeaderCallback);
+            curl_easy_setopt(curl, CURLOPT_HEADERFUNCTION, Requests::HeaderCallback);
             curl_easy_setopt(curl, CURLOPT_HEADERDATA, &headers_buffer);
 
             // Cabeçalhos personalizados

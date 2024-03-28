@@ -19,9 +19,8 @@ add_executable(CALLPKG
     utils/PathManager/pathmanager.h utils/PathManager/pathmanager.cpp
     utils/Linux/linux.h utils/Linux/linux.cpp
     utils/PackagesManager/packagesmanager.h utils/PackagesManager/packagesmanager.cpp
-    Commands/Install/install.h Commands/Install/install.cpp
+    Commands/GenericCommand/genericcommand.h Commands/GenericCommand/genericcommand.cpp
     Commands/Exec/exec.h Commands/Exec/exec.cpp
-    Commands/Uninstall/uninstall.h Commands/Uninstall/uninstall.cpp
     Commands/Validate/validate.h Commands/Validate/validate.cpp
     Commands/Logging/logging.h
 )
