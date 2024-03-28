@@ -1,67 +1,67 @@
 [
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\main.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\main.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\main.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\main.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/main.cpp",
   "output": "CMakeFiles/CALLPKG.dir/main.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\StringTools\\stringtools.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\StringTools\\stringtools.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\StringTools\\stringtools.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\StringTools\\stringtools.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/StringTools/stringtools.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/StringTools/stringtools.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\FileManager\\filemanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\FileManager\\filemanager.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\FileManager\\filemanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\FileManager\\filemanager.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/FileManager/filemanager.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/FileManager/filemanager.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\curl_request\\requests.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\curl_request\\requests.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\curl_request\\requests.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\curl_request\\requests.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/curl_request/requests.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/curl_request/requests.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\PathManager\\pathmanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\PathManager\\pathmanager.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\PathManager\\pathmanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\PathManager\\pathmanager.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/PathManager/pathmanager.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/PathManager/pathmanager.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\Linux\\linux.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\Linux\\linux.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\Linux\\linux.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\Linux\\linux.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/Linux/linux.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\PackagesManager\\packagesmanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\PackagesManager\\packagesmanager.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\utils\\PackagesManager\\packagesmanager.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\utils\\PackagesManager\\packagesmanager.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/PackagesManager/packagesmanager.cpp",
   "output": "CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Install\\install.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Install\\install.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Install\\install.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Install\\install.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Install/install.cpp",
   "output": "CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Exec\\exec.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Exec\\exec.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Exec\\exec.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Exec\\exec.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Exec/exec.cpp",
   "output": "CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Uninstall\\uninstall.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Uninstall\\uninstall.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Uninstall\\uninstall.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Uninstall\\uninstall.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Uninstall/uninstall.cpp",
   "output": "CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj"
 },
 {
   "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Validate\\validate.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Validate\\validate.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Validate\\validate.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Validate\\validate.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Validate/validate.cpp",
   "output": "CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj"
 }
