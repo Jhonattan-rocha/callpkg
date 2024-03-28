@@ -19,7 +19,7 @@ std::unordered_map<std::string, std::string> Requests::get(const std::string& ur
     std::string response_buffer;
     std::string headers_buffer;
 
-    std::cout << "executing: " << "get request for " << url;
+    LOG("executing: get request for " + url);
     try{
         CURL *curl;
         CURLcode res;
@@ -49,13 +49,13 @@ std::unordered_map<std::string, std::string> Requests::get(const std::string& ur
             // Realiza a solicitação
             res = curl_easy_perform(curl);
             if(res != CURLE_OK)
-                std::cerr << "Request error: " << curl_easy_strerror(res) << std::endl;
+                LOGERR("Request error: " + std::string(curl_easy_strerror(res)));
 
             // Obter o código de resposta
             long response_code;
             curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &response_code);
             response["status_code"] = std::to_string(response_code);
-            std::cout << " " << std::to_string(response_code) << std::endl;
+            LOG("Status code: " + std::to_string(response_code));
 
             // Limpa o objeto CURL
             curl_easy_cleanup(curl);
@@ -67,8 +67,8 @@ std::unordered_map<std::string, std::string> Requests::get(const std::string& ur
         response["response_body"] = response_buffer;
         response["headers"] = headers_buffer;
     }catch(std::exception& e){
-        std::cerr << "Error in request: " << "\n";
-        std::cerr << e.what() << std::endl;
+        LOGERR("Error in request: ");
+        LOGERR(e.what());
     }
 
     return response;
@@ -80,7 +80,7 @@ std::unordered_map<std::string, std::string> Requests::post(const std::string& u
     std::string response_buffer;
     std::string headers_buffer;
 
-    std::cout << "executing: " << "post request for " << url << std::endl;
+    LOG("executing: post request for " + url);
     try {
         CURL *curl;
         CURLcode res;
@@ -117,13 +117,13 @@ std::unordered_map<std::string, std::string> Requests::post(const std::string& u
             // Realiza a solicitação
             res = curl_easy_perform(curl);
             if (res != CURLE_OK)
-                std::cerr << "Request error: " << curl_easy_strerror(res) << std::endl;
+                LOGERR("Request error: " + std::string(curl_easy_strerror(res)));
 
             // Obter o código de resposta
             long response_code;
             curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &response_code);
             response["status_code"] = std::to_string(response_code);
-            std::cout << " " << std::to_string(response_code) << std::endl;
+            LOG("Status code: " + std::to_string(response_code));
 
             // Limpa o objeto CURL
             curl_easy_cleanup(curl);
@@ -139,8 +139,8 @@ std::unordered_map<std::string, std::string> Requests::post(const std::string& u
         response["headers"] = headers_buffer;
     }
     catch (std::exception& e) {
-        std::cerr << "Error in request: " << "\n";
-        std::cerr << e.what() << std::endl;
+        LOGERR("Error in request: ");
+        LOGERR(e.what());
     }
 
     return response; // Adicione essa linha para retornar a resposta
@@ -151,7 +151,7 @@ std::unordered_map<std::string, std::string> Requests::patch(const std::string& 
     std::string response_buffer;
     std::string headers_buffer;
 
-    std::cout << "executing: " << "post request for " << url << std::endl;
+    LOG("executing: patch request for " + url);
     try {
         CURL *curl;
         CURLcode res;
@@ -188,13 +188,13 @@ std::unordered_map<std::string, std::string> Requests::patch(const std::string& 
             // Realiza a solicitação
             res = curl_easy_perform(curl);
             if (res != CURLE_OK)
-                std::cerr << "Request error: " << curl_easy_strerror(res) << std::endl;
+                LOGERR("Request error: " + std::string(curl_easy_strerror(res)));
 
             // Obter o código de resposta
             long response_code;
             curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &response_code);
             response["status_code"] = std::to_string(response_code);
-            std::cout << " " << std::to_string(response_code) << std::endl;
+            LOG("Status code: " + std::to_string(response_code));
 
             // Limpa o objeto CURL
             curl_easy_cleanup(curl);
@@ -210,8 +210,8 @@ std::unordered_map<std::string, std::string> Requests::patch(const std::string& 
         response["headers"] = headers_buffer;
     }
     catch (std::exception& e) {
-        std::cerr << "Error in request: " << "\n";
-        std::cerr << e.what() << std::endl;
+        LOGERR("Error in request: ");
+        LOGERR(e.what());
     }
 
     return response; // Adicione essa linha para retornar a resposta
@@ -221,7 +221,7 @@ std::unordered_map<std::string, std::string> Requests::put(const std::string& ur
     std::string response_buffer;
     std::string headers_buffer;
 
-    std::cout << "executing: " << "post request for " << url << std::endl;
+    LOG("executing: put request for " + url);
     try {
         CURL *curl;
         CURLcode res;
@@ -258,13 +258,13 @@ std::unordered_map<std::string, std::string> Requests::put(const std::string& ur
             // Realiza a solicitação
             res = curl_easy_perform(curl);
             if (res != CURLE_OK)
-                std::cerr << "Request error: " << curl_easy_strerror(res) << std::endl;
+                LOGERR("Request error: " + std::string(curl_easy_strerror(res)));
 
             // Obter o código de resposta
             long response_code;
             curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &response_code);
             response["status_code"] = std::to_string(response_code);
-            std::cout << " " << std::to_string(response_code) << std::endl;
+            LOG("Status code: " + std::to_string(response_code));
 
             // Limpa o objeto CURL
             curl_easy_cleanup(curl);
@@ -280,8 +280,8 @@ std::unordered_map<std::string, std::string> Requests::put(const std::string& ur
         response["headers"] = headers_buffer;
     }
     catch (std::exception& e) {
-        std::cerr << "Error in request: " << "\n";
-        std::cerr << e.what() << std::endl;
+        LOGERR("Error in request: ");
+        LOGERR(e.what());
     }
 
     return response; // Adicione essa linha para retornar a resposta
@@ -291,7 +291,7 @@ std::unordered_map<std::string, std::string> Requests::del(const std::string& ur
     std::string response_buffer;
     std::string headers_buffer;
 
-    std::cout << "executing: " << "post request for " << url << std::endl;
+    LOG("executing: delete request for " + url);
     try {
         CURL *curl;
         CURLcode res;
@@ -328,13 +328,13 @@ std::unordered_map<std::string, std::string> Requests::del(const std::string& ur
             // Realiza a solicitação
             res = curl_easy_perform(curl);
             if (res != CURLE_OK)
-                std::cerr << "Request error: " << curl_easy_strerror(res) << std::endl;
+                LOGERR("Request error: " + std::string(curl_easy_strerror(res)));
 
             // Obter o código de resposta
             long response_code;
             curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &response_code);
             response["status_code"] = std::to_string(response_code);
-            std::cout << " " << std::to_string(response_code) << std::endl;
+            LOG("Status code: " + std::to_string(response_code));
 
             // Limpa o objeto CURL
             curl_easy_cleanup(curl);
@@ -350,8 +350,8 @@ std::unordered_map<std::string, std::string> Requests::del(const std::string& ur
         response["headers"] = headers_buffer;
     }
     catch (std::exception& e) {
-        std::cerr << "Error in request: " << "\n";
-        std::cerr << e.what() << std::endl;
+        LOGERR("Error in request: ");
+        LOGERR(e.what());
     }
 
     return response; // Adicione essa linha para retornar a resposta

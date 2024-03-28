@@ -176,6 +176,54 @@ Commands/Install/install.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.s
 .PHONY : Commands/Install/install.cpp.s
 
+Commands/Uninstall/uninstall.obj: Commands/Uninstall/uninstall.cpp.obj
+.PHONY : Commands/Uninstall/uninstall.obj
+
+# target to build an object file
+Commands/Uninstall/uninstall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj
+.PHONY : Commands/Uninstall/uninstall.cpp.obj
+
+Commands/Uninstall/uninstall.i: Commands/Uninstall/uninstall.cpp.i
+.PHONY : Commands/Uninstall/uninstall.i
+
+# target to preprocess a source file
+Commands/Uninstall/uninstall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.i
+.PHONY : Commands/Uninstall/uninstall.cpp.i
+
+Commands/Uninstall/uninstall.s: Commands/Uninstall/uninstall.cpp.s
+.PHONY : Commands/Uninstall/uninstall.s
+
+# target to generate assembly for a file
+Commands/Uninstall/uninstall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.s
+.PHONY : Commands/Uninstall/uninstall.cpp.s
+
+Commands/Validate/validate.obj: Commands/Validate/validate.cpp.obj
+.PHONY : Commands/Validate/validate.obj
+
+# target to build an object file
+Commands/Validate/validate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj
+.PHONY : Commands/Validate/validate.cpp.obj
+
+Commands/Validate/validate.i: Commands/Validate/validate.cpp.i
+.PHONY : Commands/Validate/validate.i
+
+# target to preprocess a source file
+Commands/Validate/validate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.i
+.PHONY : Commands/Validate/validate.cpp.i
+
+Commands/Validate/validate.s: Commands/Validate/validate.cpp.s
+.PHONY : Commands/Validate/validate.s
+
+# target to generate assembly for a file
+Commands/Validate/validate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CALLPKG.dir\build.make CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.s
+.PHONY : Commands/Validate/validate.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -359,6 +407,12 @@ help:
 	@echo ... Commands/Install/install.obj
 	@echo ... Commands/Install/install.i
 	@echo ... Commands/Install/install.s
+	@echo ... Commands/Uninstall/uninstall.obj
+	@echo ... Commands/Uninstall/uninstall.i
+	@echo ... Commands/Uninstall/uninstall.s
+	@echo ... Commands/Validate/validate.obj
+	@echo ... Commands/Validate/validate.i
+	@echo ... Commands/Validate/validate.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

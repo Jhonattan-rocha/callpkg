@@ -11,6 +11,11 @@
                             "instalation-commands": [
 
                             ]
+                        },
+                        {
+                            "uninstall-commands": [
+
+                            ]
                         }
                     ]
                 },
@@ -19,6 +24,11 @@
                         {
                             "instalation-commands": [
 
+                            ]
+                        },
+                        {
+                            "uninstall-commands": [
+                                
                             ]
                         }
                     ]

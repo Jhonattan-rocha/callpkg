@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Exec/exec.cpp" "CMakeFiles/callpkg.dir/Commands/Exec/exec.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/Commands/Exec/exec.cpp.obj.d"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Install/install.cpp" "CMakeFiles/callpkg.dir/Commands/Install/install.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/Commands/Install/install.cpp.obj.d"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Uninstall/uninstall.cpp" "CMakeFiles/callpkg.dir/Commands/Uninstall/uninstall.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/Commands/Uninstall/uninstall.cpp.obj.d"
+  "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Validate/validate.cpp" "CMakeFiles/callpkg.dir/Commands/Validate/validate.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/Commands/Validate/validate.cpp.obj.d"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/main.cpp" "CMakeFiles/callpkg.dir/main.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/main.cpp.obj.d"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/FileManager/filemanager.cpp" "CMakeFiles/callpkg.dir/utils/FileManager/filemanager.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/utils/FileManager/filemanager.cpp.obj.d"
   "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/utils/Linux/linux.cpp" "CMakeFiles/callpkg.dir/utils/Linux/linux.cpp.obj" "gcc" "CMakeFiles/callpkg.dir/utils/Linux/linux.cpp.obj.d"

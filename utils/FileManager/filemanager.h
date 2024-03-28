@@ -1,6 +1,9 @@
 // filemanager.h
+
+#ifndef FILEMANAGER_H
+#define FILEMANAGER_H
+
 #include <fstream>
-#include <iostream>
 #include <vector>
 #include <filesystem>
 #include <nlohmann/json.hpp>
@@ -25,3 +28,5 @@ private:
     std::fstream file;
     std::string file_path;
 };
+
+#endif

@@ -6,7 +6,7 @@ Exec::Exec(){}
 
 Exec::~Exec(){}
 
-std::string Exec::exec(const std::string& cmd) {
+std::pair<std::string, int> Exec::exec(const std::string& cmd) {
     std::stringstream result;
     char buffer[128];
     FILE* pipe = popen(cmd.c_str(), "r");
@@ -21,6 +21,6 @@ std::string Exec::exec(const std::string& cmd) {
         pclose(pipe);
         throw; // Re-throw the exception
     }
-    pclose(pipe);
-    return result.str();
+    int status = pclose(pipe);
+    return std::make_pair(result.str(), status);
 }

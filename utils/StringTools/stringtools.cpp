@@ -81,3 +81,24 @@ std::vector<size_t> StringTools::find(const std::string& search, const std::stri
 
     return result;
 }
+
+std::string StringTools::uppercase(const std::string& str){
+    std::string result;
+
+    for(char c : str){
+        result += std::toupper(c);
+    }
+
+    return result;
+}
+
+std::string StringTools::lowercase(const std::string& str){
+    std::string result;
+
+    for(char c : str){
+        result += std::tolower(c);
+    }
+
+    return result;
+}
+

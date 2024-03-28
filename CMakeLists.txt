@@ -21,7 +21,9 @@ add_executable(CALLPKG
     utils/PackagesManager/packagesmanager.h utils/PackagesManager/packagesmanager.cpp
     Commands/Install/install.h Commands/Install/install.cpp
     Commands/Exec/exec.h Commands/Exec/exec.cpp
-
+    Commands/Uninstall/uninstall.h Commands/Uninstall/uninstall.cpp
+    Commands/Validate/validate.h Commands/Validate/validate.cpp
+    Commands/Logging/logging.h
 )
 
 # Define as bibliotecas que seu projeto precisa

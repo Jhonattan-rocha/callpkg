@@ -1,5 +1,8 @@
 //packagesmanager.h
 
+#ifndef PACKAGESMANAGER_H
+#define PACKAGESMANAGER_H
+
 #include <FileManager/filemanager.h>
 #include <PathManager/pathmanager.h>
 #include <StringTools/stringtools.h>
@@ -13,3 +16,6 @@ public:
     void save_informations(const json& info);
     json getTemplate();
 };
+
+
+#endif

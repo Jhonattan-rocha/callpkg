@@ -1,4 +1,6 @@
 #ifdef __linux__
+#ifndef LINUX_H
+#define LINUX_H
 
 #include <fstream>
 #include <iostream>
@@ -12,5 +14,5 @@ public:
     std::string getLinuxDistribution();
 };
 
-
+#endif
 #endif

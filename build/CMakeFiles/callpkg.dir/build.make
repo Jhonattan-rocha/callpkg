@@ -203,6 +203,36 @@ CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Exec\exec.cpp" -o CMakeFiles\CALLPKG.dir\Commands\Exec\exec.cpp.s
 
+CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj: CMakeFiles/CALLPKG.dir/flags.make
+CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj: CMakeFiles/CALLPKG.dir/includes_CXX.rsp
+CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj: C:/Users/Jhinattan\ Rocha/Documents/GitHub/callpkg/Commands/Uninstall/uninstall.cpp
+CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj: CMakeFiles/CALLPKG.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj -MF CMakeFiles\CALLPKG.dir\Commands\Uninstall\uninstall.cpp.obj.d -o CMakeFiles\CALLPKG.dir\Commands\Uninstall\uninstall.cpp.obj -c "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Uninstall\uninstall.cpp"
+
+CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Uninstall\uninstall.cpp" > CMakeFiles\CALLPKG.dir\Commands\Uninstall\uninstall.cpp.i
+
+CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Uninstall\uninstall.cpp" -o CMakeFiles\CALLPKG.dir\Commands\Uninstall\uninstall.cpp.s
+
+CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj: CMakeFiles/CALLPKG.dir/flags.make
+CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj: CMakeFiles/CALLPKG.dir/includes_CXX.rsp
+CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj: C:/Users/Jhinattan\ Rocha/Documents/GitHub/callpkg/Commands/Validate/validate.cpp
+CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj: CMakeFiles/CALLPKG.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj -MF CMakeFiles\CALLPKG.dir\Commands\Validate\validate.cpp.obj.d -o CMakeFiles\CALLPKG.dir\Commands\Validate\validate.cpp.obj -c "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Validate\validate.cpp"
+
+CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Validate\validate.cpp" > CMakeFiles\CALLPKG.dir\Commands\Validate\validate.cpp.i
+
+CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\Commands\Validate\validate.cpp" -o CMakeFiles\CALLPKG.dir\Commands\Validate\validate.cpp.s
+
 # Object files for target CALLPKG
 CALLPKG_OBJECTS = \
 "CMakeFiles/CALLPKG.dir/main.cpp.obj" \
@@ -213,7 +243,9 @@ CALLPKG_OBJECTS = \
 "CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj" \
 "CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj" \
 "CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj" \
-"CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj"
+"CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj" \
+"CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj" \
+"CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj"
 
 # External object files for target CALLPKG
 CALLPKG_EXTERNAL_OBJECTS =
@@ -227,12 +259,14 @@ CALLPKG.exe: CMakeFiles/CALLPKG.dir/utils/Linux/linux.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/utils/PackagesManager/packagesmanager.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/Commands/Install/install.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj
+CALLPKG.exe: CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj
+CALLPKG.exe: CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/build.make
 CALLPKG.exe: C:/msys64/mingw64/lib/libcurl.dll.a
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/linkLibs.rsp
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/objects1.rsp
 CALLPKG.exe: CMakeFiles/CALLPKG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CALLPKG.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable CALLPKG.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CALLPKG.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

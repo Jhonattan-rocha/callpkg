@@ -84,7 +84,7 @@ void PathManager::delDirectory(const std::string& full_path){
         fs::remove(path);
     } catch (const std::exception& e) {
         // Handle exception or log the error if necessary
-        std::cerr << "Erro ao remover diretório " << path.string() << ": " << e.what() << std::endl;
+        LOGERR("Erro ao remover diretório " + path.string() + ": " + e.what());
     }
 }
 

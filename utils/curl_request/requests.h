@@ -1,9 +1,12 @@
 //requets.h
+#ifndef REQUEST_H
+#define REQUEST_H
+
 #include <string>
 #include <unordered_map>
 #include <curl/curl.h>
-#include <iostream>
 #include <unordered_map>
+#include <Logging/logging.h>
 
 class Requests{    
 public:
@@ -17,3 +20,6 @@ private:
     static size_t WriteCallback(void *contents, size_t size, size_t nmemb, std::string *buffer);
     static size_t HeaderCallback(char *buffer, size_t size, size_t nitems, std::string *headers);
 };
+
+
+#endif

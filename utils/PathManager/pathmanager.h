@@ -1,7 +1,9 @@
+#ifndef PATHMANAGER_H
+#define PATHMANAGER_H
 
 #include <filesystem>
 #include <exception>
-#include <iostream>
+#include <Logging/logging.h>
 #include <string>
 #include <vector>
 #include <utility>
@@ -27,3 +29,4 @@ public:
     void delDirectory(const std::string& full_path);
 };
 
+#endif

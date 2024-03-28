@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
-#include <Exec/exec.h>
+#include <Install/install.h>
 
 int main(int argc, char *argv[]){
-    Exec ex;
-    std::string result = ex.exec("dir");
-    std::cout << result << std::endl;
+    Install ins;
+    ins.process("Chocolatey");
     system("pause");
     return 0;
 }

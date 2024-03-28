@@ -6,13 +6,14 @@ PackagesManager::PackagesManager(){}
 
 json PackagesManager::recover_informations(const std::string& name){
     FileManager fm("./packages.json", std::ios_base::in);
+    StringTools st;
     json return_software_info = nullptr;
     json softwaresInfo = fm.readJson();
     fm.close();
 
     for (auto& software : softwaresInfo["Softwares"]) {
         std::string softwareName = software["software-name"];
-        if(softwareName == name){
+        if(st.lowercase(softwareName) == st.lowercase(name)){
             return_software_info = software;
             break;
         }

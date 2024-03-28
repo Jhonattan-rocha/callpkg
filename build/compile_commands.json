@@ -52,5 +52,17 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Exec\\exec.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Exec\\exec.cpp\"",
   "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Exec/exec.cpp",
   "output": "CMakeFiles/CALLPKG.dir/Commands/Exec/exec.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Uninstall\\uninstall.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Uninstall\\uninstall.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Uninstall/uninstall.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/Commands/Uninstall/uninstall.cpp.obj"
+},
+{
+  "directory": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/CALLPKG.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CALLPKG.dir\\Commands\\Validate\\validate.cpp.obj -c \"C:\\Users\\Jhinattan Rocha\\Documents\\GitHub\\callpkg\\Commands\\Validate\\validate.cpp\"",
+  "file": "C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/Commands/Validate/validate.cpp",
+  "output": "CMakeFiles/CALLPKG.dir/Commands/Validate/validate.cpp.obj"
 }
 ]
