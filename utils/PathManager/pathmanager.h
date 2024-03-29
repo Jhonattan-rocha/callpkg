@@ -9,6 +9,12 @@
 #include <utility>
 #include <filesystem>
 
+#ifdef _WIN32
+const char PATH_SEPARATOR = '\\';
+#elif __linux__
+const char PATH_SEPARATOR = '/';
+#endif
+
 struct FileInfo {
     std::string type;
     std::string name;
@@ -27,6 +33,8 @@ public:
     std::string getUserName();
     void createDirectory(const std::string& full_path, const bool force);
     void delDirectory(const std::string& full_path);
+    bool exists(const std::string& path);
+    std::string join_paths(const std::vector<std::string>& components);
 };
 
 #endif

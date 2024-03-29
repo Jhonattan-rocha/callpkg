@@ -30,7 +30,7 @@ CMAKE_ADDR2LINE:FILEPATH=C:/msys64/mingw64/bin/addr2line.exe
 CMAKE_AR:FILEPATH=C:/msys64/mingw64/bin/ar.exe
 
 //No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -121,7 +121,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Jhinattan Rocha/Documents/GitHu
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/callpkg
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/CALLPKG
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/msys64/mingw64/bin/ld.exe
@@ -267,15 +267,6 @@ PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=C:/msys64/mingw64/bin/pkg-config.exe
-
-//Value Computed by CMake
-callpkg_BINARY_DIR:STATIC=C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg/build
-
-//Value Computed by CMake
-callpkg_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-callpkg_SOURCE_DIR:STATIC=C:/Users/Jhinattan Rocha/Documents/GitHub/callpkg
 
 //The directory containing a CMake configuration file for nlohmann_json.
 nlohmann_json_DIR:PATH=C:/msys64/mingw64/share/cmake/nlohmann_json

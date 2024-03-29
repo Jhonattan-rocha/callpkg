@@ -15,6 +15,23 @@
                     ]
                 }
             ]
+        },
+        {
+            "software-name": "Python",
+            "URL-Downloads": [
+                "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe"
+            ],
+            "Platforms": [
+                {
+                    "windows": [
+                        {
+                            "instalation-commands": [
+                                "powershell; cd './tmp'; start python-3.12.2-amd64.exe"
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

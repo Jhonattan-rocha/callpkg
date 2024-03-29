@@ -261,6 +261,6 @@ CMakeFiles/CALLPKG.dir/clean:
 .PHONY : CMakeFiles/CALLPKG.dir/clean
 
 CMakeFiles/CALLPKG.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles\callpkg.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build" "C:\Users\Jhinattan Rocha\Documents\GitHub\callpkg\build\CMakeFiles\CALLPKG.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/CALLPKG.dir/depend
 

@@ -88,3 +88,18 @@ void PathManager::delDirectory(const std::string& full_path){
     }
 }
 
+bool PathManager::exists(const std::string& path){
+    return fs::exists(path);
+}
+
+std::string PathManager::join_paths(const std::vector<std::string>& components) {
+    std::string path;
+    for (const auto& component : components) {
+        // Adiciona uma barra (ou outro caractere) apenas se a string não estiver vazia
+        if (!path.empty() && path.back() != PATH_SEPARATOR) {
+            path += PATH_SEPARATOR;
+        }
+        path += component;
+    }
+    return path;
+}

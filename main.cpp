@@ -1,19 +1,15 @@
 #include <Logging/logging.h>
-#include <curl_request/requests.h>
-#include <FileManager/filemanager.h>
+#include <GenericCommand/genericcommand.h>
 
 int main(int argc, char *argv[]){
-    Requests req;
-    
-    std::unordered_map<std::string, std::string> response = req.get("https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe", {});
 
-    FileManager fm("../python-3.12.2-amd64.exe", std::ios::out | std::ios::binary);
+    PathManager pm;
+    GenericCommand gc;
 
-    fm.write(response["response_body"]);
+    if(!pm.exists("./tmp")){
+        pm.createDirectory("./tmp", true);
+    }
 
-    LOG(response["headers"]);
-    
-    fm.close();
-    system("pause");
+    gc.process("Python", "instalation-commands");
     return 0;
 } 
