@@ -38,7 +38,7 @@ void GenericCommand::process(const std::string& name, const std::string& command
                         int args_count = st.count(command_str, "{}");
                         if(args_count >= 1){
                             std::vector<std::string> result_args = this->processFirstN(args_count, &args);
-                            command_str = st.format_string_std(command_str, result_args[0]);
+                            command_str = st.format_string(command_str, result_args);
                         }
 
                         std::pair<std::string, int> result = ex.exec(command_str);

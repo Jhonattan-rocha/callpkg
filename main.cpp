@@ -11,7 +11,8 @@ int main(int argc, char *argv[]){
     }
 
     std::vector<std::string> temp(argv, argv + argc);
-
+    temp.erase(temp.begin());
+    
     gm.process("Python", "instalation-commands", temp);    
     return 0;
 } 
