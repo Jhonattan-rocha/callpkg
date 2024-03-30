@@ -13,7 +13,7 @@ include_directories("${CMAKE_CURRENT_SOURCE_DIR}/Commands")
 # Adiciona os arquivos fonte do seu projeto
 add_executable(CALLPKG 
     main.cpp
-    utils/StringTools/stringtools.h utils/StringTools/stringtools.cpp
+    utils/StringTools/stringtools.h utils/StringTools/stringtools.inl utils/StringTools/stringtools.cpp
     utils/FileManager/filemanager.h utils/FileManager/filemanager.cpp
     utils/curl_request/requests.h utils/curl_request/requests.cpp
     utils/PathManager/pathmanager.h utils/PathManager/pathmanager.cpp

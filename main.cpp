@@ -1,15 +1,17 @@
 #include <Logging/logging.h>
 #include <GenericCommand/genericcommand.h>
+#include <PathManager/pathmanager.h>
 
 int main(int argc, char *argv[]){
-
+    GenericCommand gm;
     PathManager pm;
-    GenericCommand gc;
 
-    if(!pm.exists("./tmp")){
-        pm.createDirectory("./tmp", true);
+    if(!pm.exists(pm.join_paths({".", "tmp"}))){
+        pm.createDirectory(pm.join_paths({".", "tmp"}), true);
     }
 
-    gc.process("Python", "instalation-commands");
+    std::vector<std::string> temp(argv, argv + argc);
+
+    gm.process("Python", "instalation-commands", temp);    
     return 0;
 } 

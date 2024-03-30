@@ -102,3 +102,14 @@ std::string StringTools::lowercase(const std::string& str){
     return result;
 }
 
+int StringTools::count(const std::string& str, const std::string& sub) {
+    int count = 0;
+    size_t pos = 0;
+    
+    while ((pos = str.find(sub, pos)) != std::string::npos) {
+        ++count;
+        pos += sub.length();
+    }
+    
+    return count;
+}

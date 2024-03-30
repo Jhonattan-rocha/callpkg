@@ -26,7 +26,7 @@
                     "windows": [
                         {
                             "instalation-commands": [
-                                "powershell; cd './tmp'; start python-3.12.2-amd64.exe"
+                                "powershell; cd './tmp'; echo {}; echo {}; start python-3.12.2-amd64.exe"
                             ]
                         }
                     ]

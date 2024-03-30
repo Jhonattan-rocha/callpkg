@@ -6,16 +6,22 @@ GenericCommand::GenericCommand(){}
 
 GenericCommand::~GenericCommand(){}
 
-void GenericCommand::process(const std::string& name, const std::string& commandName){
+void GenericCommand::process(const std::string& name, const std::string& commandName, std::vector<std::string>& args){
     PackagesManager pm;
     StringTools st;
     Validate val;
     Exec ex;
 
     json pack = pm.recover_informations(name);
+
+    if(!pack.is_object()){
+        return;
+    }
+
     std::string current_platform = val.getPlatform();
     current_platform = st.lowercase(current_platform);
     auto platforms = pack["Platforms"];
+
     this->downloadFilesDependences(pack);
 
     for (const auto& platform : platforms) {
@@ -27,7 +33,15 @@ void GenericCommand::process(const std::string& name, const std::string& command
                     for (const auto& command : genericCommands) {
                         LOG("executing command: ");
                         LOG(command);
-                        std::pair<std::string, int> result = ex.exec(command);
+
+                        std::string command_str = (std::string) command;
+                        int args_count = st.count(command_str, "{}");
+                        if(args_count >= 1){
+                            std::vector<std::string> result_args = this->processFirstN(args_count, &args);
+                            command_str = st.format_string_std(command_str, result_args[0]);
+                        }
+
+                        std::pair<std::string, int> result = ex.exec(command_str);
                         if (result.second == 0) {
                             LOG(result.first);
                         } else {
@@ -44,6 +58,11 @@ void GenericCommand::process(const std::string& name, const std::string& command
 }
 
 void GenericCommand::downloadFilesDependences(const json& data){
+
+    if(data["URL-Downloads"].size() < 1){
+        return;
+    }
+
     Requests req;
     StringTools st;
     PathManager pm;
@@ -61,4 +80,19 @@ void GenericCommand::downloadFilesDependences(const json& data){
     }
 
     LOGERR("Nenhuma requisição para download teve sucesso");
+}
+
+std::vector<std::string> GenericCommand::processFirstN(int count, std::vector<std::string>* temp) {
+    std::vector<std::string> result;
+    if (count <= temp->size()) {
+        for (int i = 0; i < count; ++i) {
+            result.push_back(temp->at(i));
+        }
+        temp->erase(temp->begin(), temp->begin() + count);
+    } else {
+        LOGERR("Quantidade inválida");
+        return {};
+    }
+
+    return result;
 }
