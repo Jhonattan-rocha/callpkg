@@ -67,3 +67,51 @@ std::string Validate::getPlatform(){
         return "unnkow";
     #endif
 }
+
+bool Validate::isSoftwareInstalled(const std::string& softwareName) {
+    std::string command;
+    #ifdef _WIN32
+        command = "where " + softwareName; // Comando 'where' no Windows procura pelo executável do software
+    #elif __linux__
+        command = "which " + softwareName; // Comando 'which' no Linux procura pelo executável do software
+    #else
+        #error "Plataforma não suportada"
+    #endif
+        Exec ex;
+        std::pair<std::string, int> result = ex.exec(command);
+        if(result.second == 0){
+            LOG(result.first);
+        }else{
+            LOGERR(result.first);
+        }
+        return result.second == 0;
+}
+
+bool Validate::hasCommand(const std::string& commandName, const std::string& name){
+    PackagesManager pm;
+    StringTools st;
+    Validate val;
+    Exec ex;
+
+    json pack = pm.recover_informations(name);
+
+    std::string current_platform = val.getPlatform();
+    current_platform = st.lowercase(current_platform);
+    auto platforms = pack["Platforms"];
+
+    for (const auto& platform : platforms) {
+        if (platform.contains(current_platform)) {
+            auto platformInfo = platform[current_platform];
+            for(const auto& infos : platformInfo){
+                if (infos.contains(commandName)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            break;
+        }
+    }
+    
+    return false;
+}

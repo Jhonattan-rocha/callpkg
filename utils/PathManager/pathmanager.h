@@ -7,7 +7,6 @@
 #include <string>
 #include <vector>
 #include <utility>
-#include <filesystem>
 
 #ifdef _WIN32
 const char PATH_SEPARATOR = '\\';

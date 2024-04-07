@@ -12,11 +12,12 @@ void GenericCommand::process(const std::string& name, const std::string& command
     Validate val;
     Exec ex;
 
-    json pack = pm.recover_informations(name);
-
-    if(!pack.is_object()){
+    if(!val.hasCommand(commandName, name)){
+        LOGERR("Comando não encontrado ou não mapeado!");
         return;
     }
+
+    json pack = pm.recover_informations(name);
 
     std::string current_platform = val.getPlatform();
     current_platform = st.lowercase(current_platform);

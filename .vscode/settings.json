@@ -66,6 +66,4 @@
         "charconv": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
-    "makefile.makefilePath": ".\\build\\Makefile",
-    "makefile.makePath": "C:\\msys64\\usr\\bin",
 }
