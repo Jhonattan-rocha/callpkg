@@ -8,6 +8,7 @@
 #include <iomanip>
 #include <sstream>
 #include <algorithm>
+#include <regex>
 
 #if __cplusplus >= 202002L
 #include <format>
@@ -26,6 +27,7 @@ public:
     std::string limit_str(int limit, std::string value);
     std::string uppercase(const std::string& str);
     std::string lowercase(const std::string& str);
+    std::string replace(const std::string& str, const std::regex& reg, const std::string& repl);
     int count(const std::string& str, const std::string& sub);
     template<typename T>
     std::string format_string(const std::string& format_str, std::vector<T>& vec);

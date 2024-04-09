@@ -15,6 +15,8 @@ public:
     json recover_informations(const std::string& name);
     void save_informations(const json& info);
     json getTemplate();
+    json get_macro(const std::string& name);
+    void save_macro(const json& macro);
 };
 
 

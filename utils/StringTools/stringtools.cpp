@@ -113,3 +113,11 @@ int StringTools::count(const std::string& str, const std::string& sub) {
     
     return count;
 }
+
+std::string StringTools::replace(const std::string& str, const std::regex& reg, const std::string& repl){
+    std::string response;
+
+    response = std::regex_replace(str, reg, repl);
+
+    return response;
+}

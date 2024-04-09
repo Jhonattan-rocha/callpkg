@@ -17,6 +17,7 @@ public:
     ~GenericCommand();
     void process(const std::string& name, const std::string& commandName, std::vector<std::string>& args);
     std::vector<std::string> processFirstN(int count, std::vector<std::string>* temp);
+    void macro(const std::string& name, std::vector<std::string>& args);
 private:
     void downloadFilesDependences(const json& urls);
 };

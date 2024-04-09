@@ -33,5 +33,14 @@
                 }
             ]
         }
+    ],
+    "Macros": [
+        {
+            "name": "print",
+            "interpreter":"python",
+            "commands": [
+                "-c \"print('teste')\""
+            ]
+        }
     ]
 }

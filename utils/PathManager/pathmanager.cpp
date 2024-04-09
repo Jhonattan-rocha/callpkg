@@ -103,3 +103,17 @@ std::string PathManager::join_paths(const std::vector<std::string>& components) 
     }
     return path;
 }
+
+std::vector<std::string> PathManager::hasPath(const std::vector<std::string>& args) {
+    std::vector<std::string> response;
+    StringTools st;
+
+    for(const auto& path : args){
+        std::string str = st.strip(path);
+        if(fs::exists(str)){
+            response.push_back(str);
+        }
+    }
+
+    return response;
+}

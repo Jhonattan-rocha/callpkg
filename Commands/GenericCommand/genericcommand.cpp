@@ -76,11 +76,8 @@ void GenericCommand::downloadFilesDependences(const json& data){
             FileManager fm(pm.join_paths({".", "tmp", file_name}), std::ios::out | std::ios::binary);
             fm.write(response["response_body"]);
             fm.close();
-            return;
         }
     }
-
-    LOGERR("Nenhuma requisição para download teve sucesso");
 }
 
 std::vector<std::string> GenericCommand::processFirstN(int count, std::vector<std::string>* temp) {
@@ -96,4 +93,37 @@ std::vector<std::string> GenericCommand::processFirstN(int count, std::vector<st
     }
 
     return result;
+}
+
+void GenericCommand::macro(const std::string& name, std::vector<std::string>& args){
+    PackagesManager pm;
+    StringTools st;
+    Exec ex;
+
+    json macro = pm.get_macro(name);
+
+    for (const auto& command : macro["commands"]) {
+        LOG("executing command: ");
+        LOG(command);
+
+        std::string command_str = (std::string) command;
+        int args_count = st.count(command_str, "{}");
+        if(args_count >= 1){
+            std::vector<std::string> result_args = this->processFirstN(args_count, &args);
+            command_str = st.format_string(command_str, result_args);
+        }
+
+        std::string interpreter = macro["interpreter"];
+        if(macro.contains("interpreter") && interpreter.length() > 0){
+            command_str = interpreter + " " + command_str;
+        }
+
+        std::pair<std::string, int> result = ex.exec(command_str);
+
+        if (result.second == 0) {
+            LOG(result.first);
+        } else {
+            LOGERR(result.first);
+        }
+    }
 }

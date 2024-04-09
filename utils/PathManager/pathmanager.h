@@ -4,6 +4,7 @@
 #include <filesystem>
 #include <exception>
 #include <Logging/logging.h>
+#include <StringTools/stringtools.h>
 #include <string>
 #include <vector>
 #include <utility>
@@ -33,6 +34,7 @@ public:
     void createDirectory(const std::string& full_path, const bool force);
     void delDirectory(const std::string& full_path);
     bool exists(const std::string& path);
+    std::vector<std::string> hasPath(const std::vector<std::string>& args);
     std::string join_paths(const std::vector<std::string>& components);
 };
 
