@@ -127,3 +127,46 @@ void GenericCommand::macro(const std::string& name, std::vector<std::string>& ar
         }
     }
 }
+
+void GenericCommand::create_macro(){
+    StringTools st;
+    PackagesManager pck;
+
+    json macro;
+
+    LOG("Digite o nome da macro: ");
+    std::string name = "";
+    
+    while (name.length() == 0){
+        std::getline(std::cin, name);
+        name = st.lowercase(name);
+        name = st.strip(name);
+        if(name.length() == 0){
+            LOGERR("Inválido, digite novamente");
+        }
+    }
+    
+    macro["name"] = name;
+
+    LOG("Digite o interpretador da macro(n/a para vazio, o padrão será o cmd/bash): ");
+    std::string interpreter = "";
+    std::getline(std::cin, interpreter);
+    if(st.lowercase(interpreter) == "n/a"){
+        interpreter = "";
+    }
+    macro["interpreter"] = interpreter;
+    macro["commands"] = json::array();
+
+    LOG("Agora digite os comandos da macro(digite n/a para parar): ")
+    while (true){
+        std::string command;
+        LOG("comando: ");
+        std::getline(std::cin, command);
+        if(st.lowercase(command) == "n/a"){
+            break;
+        }
+        macro["commands"].push_back(command);
+    }
+
+    pck.save_macro(macro);
+}

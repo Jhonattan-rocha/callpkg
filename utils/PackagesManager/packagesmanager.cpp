@@ -102,6 +102,7 @@ void PackagesManager::save_macro(const json& macro){
         macrosInfo["Macros"].push_back(macro);
         fm_out.writeJson(macrosInfo);
         fm_out.close();
+        LOG("macro salva com sucesso");
     } catch (std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }

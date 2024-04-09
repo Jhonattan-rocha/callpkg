@@ -1,9 +1,22 @@
 {
+    "Macros": [
+        {
+            "commands": [
+                "-c \"print('teste')\""
+            ],
+            "interpreter": "python",
+            "name": "print"
+        },
+        {
+            "commands": [
+                "tasklist >> ../teste.txt"
+            ],
+            "interpreter": "powershell",
+            "name": "get-tasklist"
+        }
+    ],
     "Softwares": [
         {
-            "software-name": "Chocolatey",
-            "URL-Downloads": [
-            ],
             "Platforms": [
                 {
                     "windows": [
@@ -14,13 +27,11 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "URL-Downloads": [],
+            "software-name": "Chocolatey"
         },
         {
-            "software-name": "Python",
-            "URL-Downloads": [
-                "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe"
-            ],
             "Platforms": [
                 {
                     "windows": [
@@ -31,16 +42,11 @@
                         }
                     ]
                 }
-            ]
-        }
-    ],
-    "Macros": [
-        {
-            "name": "print",
-            "interpreter":"python",
-            "commands": [
-                "-c \"print('teste')\""
-            ]
+            ],
+            "URL-Downloads": [
+                "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe"
+            ],
+            "software-name": "Python"
         }
     ]
 }

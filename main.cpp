@@ -42,6 +42,11 @@ int main(int argc, char *argv[]){
         gm.macro(macro, args);
     };
 
+    commands["create-macro"] = [](const std::vector<std::string>& argsc){
+        GenericCommand gm;
+        gm.create_macro();
+    };
+
     if(!pm.exists(pm.join_paths({".", "tmp"}))){
         pm.createDirectory(pm.join_paths({".", "tmp"}), true);
     }
